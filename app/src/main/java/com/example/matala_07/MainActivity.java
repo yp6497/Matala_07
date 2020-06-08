@@ -54,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
             if (rb1.isChecked()) getWindow().getDecorView().setBackgroundColor(Color.RED);
         }
         else Toast.makeText(this, "Click on the button to change the color", Toast.LENGTH_SHORT).show();
-
     }
 
     public void rb4(View view) {
