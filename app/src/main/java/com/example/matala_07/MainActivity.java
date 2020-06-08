@@ -16,9 +16,7 @@ import static android.graphics.Color.*;
 public class MainActivity extends AppCompatActivity {
 
     Switch sw;
-    boolean bo;
     RadioButton rb1, rb2, rb3, rb4;
-    LinearLayout lL;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
         rb2 = (RadioButton) findViewById(R.id.rb2);
         rb3 = (RadioButton) findViewById(R.id.rb3);
         rb4 = (RadioButton) findViewById(R.id.rb4);
-        lL = (LinearLayout) findViewById(R.id.ActivityMain);
     }
 
     public void check(View view) {
@@ -77,12 +74,3 @@ public class MainActivity extends AppCompatActivity {
         else Toast.makeText(this, "Click on the button to change the color", Toast.LENGTH_SHORT).show();
     }
 }
-
-
-
-
-
-
-
-
-
